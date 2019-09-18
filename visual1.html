@@ -11,53 +11,40 @@
         <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
     </head>
     <body>
-        <!-- <style type="text/css">
-            html, body, #container {
-                height: 100%;
-            }
-            body, #container {
-                overflow: hidden;
-                margin: 0;
-            }
-            #iframe {
-                width: 100%;
-                height: 100%;
-                border: none;
-            }
-        </style> -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="landing2.html">Latitude</a>
-                  <div class="navbar-collapse collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ml-auto">
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Plots
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <div class="dropdown-divider"></div>
-                              <a class="dropdown-item" href="visual1.html">Latitude vs. Max Temperature</a>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="landing2.html">Latitude</a>
+                          <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto">
+                                  <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Plots
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                      <div class="dropdown-divider"></div>
+                                      <a class="dropdown-item" href="visual1.html">Latitude vs. Max Temperature</a>
                                       <a class="dropdown-item" href="visual2.html">Latitude vs. Humidity</a>
                                       <a class="dropdown-item" href="visual3.html">Latitude vs. Cloudiness</a>
                                       <a class="dropdown-item" href="visual4.html">Latitude vs. Wind Speed</a>
-                              <div class="dropdown-divider"></div>
-                            </div>
-                          </li>
-                          <li class="nav-item active">
-                                <a class="nav-link" href="comparison1.html">Comparison<span class="sr-only">(current)</span></a>
-                              </li>
-                              <li class="nav-item">
-                                <a class="nav-link" href="data1.html">Data</a>
-                              </li>
-                        </ul>
-                      </div>
-        </nav>
-        <div id="container">
+                                      <div class="dropdown-divider"></div>
+                                    </div>
+                                  </li>
+                                  <li class="nav-item active">
+                                        <a class="nav-link" href="comparison1.html">Comparison<span class="sr-only">(current)</span></a>
+                                      </li>
+                                      <li class="nav-item">
+                                        <a class="nav-link" href="data1.html">Data</a>
+                                      </li>
+                                </ul>
+                              </div>
+                </nav>
+                 <div id="container">
             <div class="row">
-              <div class="col-1"></div>
+                    <div class="col-1"></div>
                     <div class="col-6">
                         <div class="jumbotron">
-                        <h1 class="display-5">Summary: Latitude Vs. X</h1>
+                        <h1 class="display-5">Latitude Vs. Max Temperature</h1>
                         <hr class="my-5">
+                        <img src="Instructions/Resources/assets/images/Fig1.png" width="80%" height="80%"alt="Figure 1">
                             <p>The Purpose of this project was to anayze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
                             <br> <br>
                             After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.  Factors we looked at included:  temperature, cloudiness, wind speed, and humidity.  This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.
